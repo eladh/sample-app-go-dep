@@ -1,0 +1,9 @@
+---
+applications:
+- name: my-app-dep
+  memory: 32M
+  env:
+    VERSION: 0.0.1
+    GOPACKAGENAME: github.com/eladh/sample-app-go-dep
+  routes:
+    - route: my-app-dep.scapp.io
