@@ -1,11 +1,11 @@
 package main
 
 import (
-	"app/handlers"
 	"github.com/nbari/violetear"
 	"log"
 	"net/http"
 	"os"
+	"sample-app-go-dep/handlers"
 	"time"
 )
 
