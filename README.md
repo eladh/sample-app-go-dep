@@ -38,3 +38,27 @@ After make finishes you can run the app:
 Visit [http://localhost:8080](http://localhost:8080)
 
 
+# How to convert to GO Modules
+
+Import dependencies from Gopkg.lock
+
+    $ go mod init .
+
+
+Remove unnecessary imports and add indirect imports
+
+    $ go mod tidy
+
+
+Delete the vendor folder
+
+    $ rm –rf vendor/
+
+Delete Gopkg files
+
+    $ rm Gopkg.*
+    
+    
+Checkout gocenter GOPROXY performance
+
+    $ run ./performance.sh  
